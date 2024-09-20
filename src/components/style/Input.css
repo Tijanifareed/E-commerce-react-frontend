@@ -1,0 +1,23 @@
+.input_container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F0F0F0;
+    color: #9A9A9A;
+    border-radius: 16px;
+    padding: 0 10px;
+}
+.input_container>img{
+    width: 5%;
+    height: 20px;
+    /* margin-right: 10px; */
+}
+.input_field{
+    width: 95%;
+    height: 30px;
+    border: none;
+    /* border-bottom: 1px solid black; */
+    outline: none;
+    background-color: transparent;;
+}

@@ -1,0 +1,98 @@
+.hero_main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /*flex-direction: column;*/
+
+    width: 30%;
+
+}
+
+body{
+    background-color: white;
+}
+
+.hero_main:hover{
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: purple;
+    cursor: pointer;
+    color: white;
+}
+
+.button{
+    width:70px;
+    height:30px;
+}
+
+.find_clothes{
+    font-weight: bolder;
+    font-size: xxx-large;
+}
+
+.hero{
+    position: relative;
+   left: 70px;
+
+}
+
+.browse{
+    font-size :15px;
+    position: relative;
+    bottom: 25px;
+}
+.shop{
+    height: 42px;
+    width: 155px;
+    border-radius: 17px;
+    background-color: black;
+    color: white;
+}
+
+.container{
+    display: flex;
+    gap: 190px;
+
+}
+
+.man_and_woman{
+    width: 460px;
+    height: 460px;
+    position: relative;
+    bottom: 10px;
+}
+
+.num{
+    display: flex;
+    gap: 40px;
+
+}
+
+.nu{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.small_talks{
+    font-size: 10px;
+    display: flex;
+    gap: 50px;
+    position: relative;
+    bottom: 31px;
+
+}
+
+
+.blackss{
+    display: flex;
+    color: white;
+    font-weight: bolder;
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+
+
